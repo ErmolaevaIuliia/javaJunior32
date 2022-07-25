@@ -114,6 +114,8 @@ public class Matrix implements IMatrix{
 
     @Override
     public boolean isSquareMatrix() {
+        if (this.getRows()==this.getColumns()){
+        }
         return false;
     }
 
